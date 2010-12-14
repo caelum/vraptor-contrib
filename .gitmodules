@@ -1,0 +1,3 @@
+[submodule "vraptor-authz"]
+	path = vraptor-authz
+	url = git://github.com/qmx/vraptor-authz.git
