@@ -1,3 +1,6 @@
 [submodule "vraptor-authz"]
 	path = vraptor-authz
 	url = git://github.com/qmx/vraptor-authz.git
+[submodule "vraptor-gson-serializer"]
+	path = vraptor-gson-serializer
+	url = https://github.com/luizsignorelli/vraptor-gson-serializer.git
