@@ -4,3 +4,12 @@
 [submodule "vraptor-gson-serializer"]
 	path = vraptor-gson-serializer
 	url = https://github.com/luizsignorelli/vraptor-gson-serializer.git
+[submodule "vraptor-simplemail"]
+	path = vraptor-simplemail
+	url = https://github.com/caelum/vraptor-simplemail
+[submodule "vraptor-freemarker"]
+	path = vraptor-freemarker
+	url = https://github.com/caelum/vraptor-freemarker
+[submodule "vraptor-environment"]
+	path = vraptor-environment
+	url = https://github.com/caelum/vraptor-environment
