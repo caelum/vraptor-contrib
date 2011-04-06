@@ -13,3 +13,6 @@
 [submodule "vraptor-environment"]
 	path = vraptor-environment
 	url = https://github.com/caelum/vraptor-environment
+[submodule "vraptor-jasperreport"]
+	path = vraptor-jasperreport
+	url = git@github.com:wpivotto/vraptor-jasperreport.git
