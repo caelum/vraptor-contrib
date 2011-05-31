@@ -19,3 +19,6 @@
 [submodule "vraptor-extractor"]
 	path = vraptor-extractor
 	url = https://github.com/jrdalpra/br.com.caelum.vraptor.util.extractor.git
+[submodule "vraptor-sequence-validator"]
+	path = vraptor-sequence-validator
+	url = git@github.com:felipepedrini/vraptor-sequence-validator.git
