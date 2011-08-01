@@ -28,3 +28,6 @@
 [submodule "vraptor-neo4j"]
 	path = vraptor-neo4j
 	url = git@github.com:caelum/vraptor-neo4j.git
+[submodule "vraptor-gson-plugin"]
+	path = vraptor-gson-plugin
+	url = git@github.com:acdesouza/vraptor-gson-plugin.git
