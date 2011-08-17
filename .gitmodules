@@ -16,3 +16,21 @@
 [submodule "vraptor-jasperreport"]
 	path = vraptor-jasperreport
 	url = git@github.com:wpivotto/vraptor-jasperreport.git
+<<<<<<< HEAD
+=======
+[submodule "vraptor-extractor"]
+	path = vraptor-extractor
+	url = https://github.com/jrdalpra/br.com.caelum.vraptor.util.extractor.git
+[submodule "vraptor-sequence-validator"]
+	path = vraptor-sequence-validator
+	url = git@github.com:felipepedrini/vraptor-sequence-validator.git
+[submodule "vraptor-test"]
+	path = vraptor-test
+	url = git@github.com:caelum/vraptor-test.git
+[submodule "vraptor-neo4j"]
+	path = vraptor-neo4j
+	url = git@github.com:caelum/vraptor-neo4j.git
+[submodule "vraptor-gson-plugin"]
+	path = vraptor-gson-plugin
+	url = git@github.com:acdesouza/vraptor-gson-plugin.git
+>>>>>>> upstream/master
