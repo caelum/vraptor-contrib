@@ -31,3 +31,9 @@
 [submodule "vraptor-gson-plugin"]
 	path = vraptor-gson-plugin
 	url = git@github.com:acdesouza/vraptor-gson-plugin.git
+[submodule "vraptor-templates"]
+	path = vraptor-templates
+	url = git@github.com:wpivotto/vraptor-templates.git
+[submodule "vraptor-tasks"]
+	path = vraptor-tasks
+	url = git@github.com:wpivotto/vraptor-tasks.git
