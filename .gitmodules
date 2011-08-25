@@ -37,3 +37,6 @@
 [submodule "vraptor-tasks"]
 	path = vraptor-tasks
 	url = git@github.com:wpivotto/vraptor-tasks.git
+[submodule "vraptor-qs-serialization"]
+	path = vraptor-qs-serialization
+	url = https://github.com/moisespsena/vraptor-qs-serialization.git
