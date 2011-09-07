@@ -40,3 +40,6 @@
 [submodule "vraptor-qs-serialization"]
 	path = vraptor-qs-serialization
 	url = https://github.com/moisespsena/vraptor-qs-serialization.git
+[submodule "vraptor-blank-project-heroku"]
+	path = vraptor-blank-project-heroku
+	url = git@github.com:dennysfredericci/vraptor-blank-project-heroku.git
