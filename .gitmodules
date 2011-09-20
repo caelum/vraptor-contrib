@@ -43,3 +43,6 @@
 [submodule "vraptor-blank-project-heroku"]
 	path = vraptor-blank-project-heroku
 	url = git@github.com:dennysfredericci/vraptor-blank-project-heroku.git
+[submodule "vraptor-spring-environment"]
+	path = vraptor-spring-environment
+	url = git@github.com:dennysfredericci/vraptor-spring-environment.git
