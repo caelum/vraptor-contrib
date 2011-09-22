@@ -46,3 +46,6 @@
 [submodule "vraptor-spring-environment"]
 	path = vraptor-spring-environment
 	url = git@github.com:dennysfredericci/vraptor-spring-environment.git
+[submodule "vraptor-vraptor2"]
+	path = vraptor-vraptor2
+	url = https://github.com/caelum/vraptor-vraptor2
