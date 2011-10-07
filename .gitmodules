@@ -49,3 +49,6 @@
 [submodule "vraptor-vraptor2"]
 	path = vraptor-vraptor2
 	url = https://github.com/caelum/vraptor-vraptor2
+[submodule "vraptor-load-object"]
+	path = vraptor-load-object
+	url = git@github.com:carlosjrcabello/vraptor-load-object.git
