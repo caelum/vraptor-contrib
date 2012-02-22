@@ -55,3 +55,6 @@
 [submodule "vraptor-js-i18n"]
 	path = vraptor-js-i18n
 	url = git@github.com:carlosjrcabello/vraptor-js-i18n.git
+[submodule "vraptor-taglib"]
+	path = vraptor-taglib
+	url = git@github.com:dennysfredericci/vraptor-taglib.git
