@@ -25,5 +25,20 @@ COMPILING FROM SOURCE-CODE
 
 * open the command line
 * cd to the root folder
-* type 
+* type           
+
     ./gradlew jar
+   
+BUILD WITH ECLIPSE
+------------------
+
+To use eclipse just do the following:
+
+* open the command line
+* cd to the root folder
+* type: 
+
+    ./gradlew eclipse
+    
+* open eclipse
+* import project to the workspace
