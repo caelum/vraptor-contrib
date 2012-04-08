@@ -47,3 +47,9 @@ dependencies {
 task wrapper(type:Wrapper) {
   gradleVersion = '1.0-milestone-9'
 }
+
+compileJava {
+  options.debug = true
+  options.debugOptions.debugLevel = "source,lines,vars"
+  options.encoding = "UTF-8"
+}

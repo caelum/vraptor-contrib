@@ -42,3 +42,16 @@ To use eclipse just do the following:
     
 * open eclipse
 * import project to the workspace
+
+RUN THE SAMPLE
+--------------
+
+To run the sample code:
+
+* open the command line
+* cd to the root folder
+* type:
+
+        ./gradlew jettyRunWar
+        
+It's also possible to run from eclipse WTP.
