@@ -27,7 +27,7 @@ COMPILING FROM SOURCE-CODE
 * cd to the root folder
 * type           
 
-    ./gradlew jar
+        ./gradlew jar
    
 BUILD WITH ECLIPSE
 ------------------
@@ -38,7 +38,7 @@ To use eclipse just do the following:
 * cd to the root folder
 * type: 
 
-    ./gradlew eclipse
+        ./gradlew eclipse
     
 * open eclipse
 * import project to the workspace
