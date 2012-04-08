@@ -10,12 +10,12 @@ Put the *vraptor-js-controller.jar* on the _WEB-INF/lib_ of your project.
 
 On the web page you want to use the controller just add the following line:
 
-> 
-> <script type="text/javascript" src="<c:url value='/js/ControllerName'/>"></script>
->
+     
+    <script type="text/javascript" src="<c:url value='/js/ControllerName'/>"></script>
+    
 
 For instance suppose that exist a ProductsController than you should insert the following snippet:
 
-> 
-> <script type="text/javascript" src="<c:url value='/js/ProductsController'/>"></script>
-> 
+    
+    <script type="text/javascript" src="<c:url value='/js/ProductsController'/>"></script>
+    
