@@ -2,5 +2,6 @@ bin/
 .classpath
 .project
 .settings/
+.gradle/
 .DS_Store
 
