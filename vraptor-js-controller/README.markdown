@@ -8,6 +8,15 @@ INSTALATION
 -----------
 Put the `vraptor-js-controller.jar` on the `WEB-INF/lib` of your project.
 
+On the `web.xml` of your application insert the following lines:
+
+     <context-param>
+             <param-name>br.com.caelum.vraptor.packages</param-name>
+             <param-value>
+                 br.com.vraptor.contrib.jscontroller
+             </param-value>
+     </context-param>
+
 On the web page you want to use the controller just add the following line:
 
      
