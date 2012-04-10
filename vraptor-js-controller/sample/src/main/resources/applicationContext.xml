@@ -14,4 +14,5 @@
 									http://www.springframework.org/schema/aop/spring-aop-3.1.xsd">
 
 	<context:annotation-config />
+  <bean class="org.apache.velocity.app.VelocityEngine"/>
 </beans>

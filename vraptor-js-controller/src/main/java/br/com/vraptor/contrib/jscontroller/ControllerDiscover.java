@@ -5,6 +5,8 @@ import java.lang.reflect.Method;
 import java.util.List;
 import java.util.Map;
 
+import javax.servlet.ServletContext;
+
 import javassist.Modifier;
 import br.com.caelum.vraptor.Resource;
 import br.com.caelum.vraptor.http.route.Route;
@@ -28,11 +30,13 @@ import com.google.common.collect.Maps;
 public class ControllerDiscover implements StereotypeHandler {
   
   private Map<String, Controller> controllers;
-  private RoutesParser routeParser;
+  private RoutesParser routesParser;
+  private ServletContext context;
   
-  public ControllerDiscover(RoutesParser routeParser) {
+  public ControllerDiscover(RoutesParser routesParser, ServletContext context) {
     controllers = Maps.newHashMap();
-    this.routeParser = routeParser;
+    this.routesParser = routesParser;
+    this.context = context;
   }
   
   public void handle(Class<?> controllerClass) {
@@ -40,8 +44,8 @@ public class ControllerDiscover implements StereotypeHandler {
     controller.setName(controllerClass.getSimpleName());
     
     List<JsRoute> jsRoutes = Lists.newArrayList();
-    List<Route> routes = routeParser.rulesFor(new DefaultResourceClass(controllerClass));
-    
+    List<Route> routes = routesParser.rulesFor(new DefaultResourceClass(controllerClass));
+
     for (Method method : controllerClass.getMethods()) {
       if(isEligible(method)){
         
@@ -50,7 +54,7 @@ public class ControllerDiscover implements StereotypeHandler {
     
         for (Route route : routes) {
           if(route.canHandle(controllerClass, method)){
-            jsRoute.setUrl(route.getOriginalUri());
+            jsRoute.setUrl(context.getContextPath() + route.getOriginalUri());
             jsRoute.setAllowedMethods(route.allowedMethods());
             continue;
           }

@@ -10,7 +10,7 @@ import br.com.caelum.vraptor.Resource;
 import br.com.caelum.vraptor.Result;
 
 @Resource
-@Path("/products")
+@Path("products")
 public class ProductsController {
   
   private Result result;

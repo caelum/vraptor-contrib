@@ -15,7 +15,7 @@
 				<input type="button" id="remover" value="Remover">
 				<div id="console"></div>
         <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
-        <script type="text/javascript" src="<c:url value='/js/ProductsController'/>"></script>
+        <script type="text/javascript" src="<c:url value='/js/min/ProductsController'/>"></script>
         <script type="text/javascript" src="<c:url value='/index.js'/>"></script>
     </body>
 </html>

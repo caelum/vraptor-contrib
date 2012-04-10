@@ -34,6 +34,8 @@ dependencies {
   compile group:"org.hamcrest",             name: "hamcrest-all",         version: "1.2"
   compile group:"com.thoughtworks.xstream", name: "xstream",              version: "1.3.1"
   compile group:"org.apache.commons",       name: "commons-lang3",        version: "3.1"
+  compile group:"org.apache.velocity",      name: "velocity",             version: "1.7"
+  compile group:"com.google.javascript",    name:"closure-compiler",      version:"r1810"
   compile fileTree(dir: "${webAppDirName}/WEB-INF/lib", include: '*.jar')
   
   providedCompile "javax.servlet:servlet-api:2.5"
