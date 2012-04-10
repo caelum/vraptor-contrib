@@ -64,3 +64,6 @@
 [submodule "vraptor-plugin-cdi"]
 	path = vraptor-plugin-cdi
 	url = git@github.com:garcia-jj/vraptor-plugin-cdi.git
+[submodule "vraptor-js-controller"]
+	path = vraptor-js-controller
+	url = https://github.com/marceloemanoel/vraptor-js-controller
