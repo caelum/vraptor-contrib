@@ -58,3 +58,6 @@
 [submodule "vraptor-taglib"]
 	path = vraptor-taglib
 	url = git@github.com:dennysfredericci/vraptor-taglib.git
+[submodule "vraptor-plugin-hibernate4"]
+	path = vraptor-plugin-hibernate4
+	url = git@github.com:garcia-jj/vraptor-plugin-hibernate4.git
