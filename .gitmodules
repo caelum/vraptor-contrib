@@ -1,6 +1,3 @@
-[submodule "vraptor-js-controller"]
-        path = vraptor-js-controller
-        url  = git@github.com:marceloemanoel/vraptor-js-controller.git 
 [submodule "vraptor-authz"]
 	path = vraptor-authz
 	url = git://github.com/qmx/vraptor-authz.git
@@ -61,3 +58,6 @@
 [submodule "vraptor-taglib"]
 	path = vraptor-taglib
 	url = git@github.com:dennysfredericci/vraptor-taglib.git
+[submodule "vraptor-js-controller"]
+	path = vraptor-js-controller
+	url = ../vraptor-js-controller/
