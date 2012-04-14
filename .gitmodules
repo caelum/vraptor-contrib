@@ -67,3 +67,6 @@
 [submodule "vraptor-js-controller"]
 	path = vraptor-js-controller
 	url = https://github.com/marceloemanoel/vraptor-js-controller
+[submodule "vraptor-authentication"]
+	path = vraptor-authentication
+	url = http://github.com/rlazoti/vraptor-authentication
