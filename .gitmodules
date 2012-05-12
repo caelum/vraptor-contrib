@@ -73,3 +73,6 @@
 [submodule "vraptor-uploadconfig"]
 	path = vraptor-uploadconfig
 	url = http://github.com/caelum/vraptor-uploadconfig
+[submodule "vraptor-cep"]
+	path = vraptor-cep
+	url = http://github.com/lucasmedeirosleite/vraptor-cep
