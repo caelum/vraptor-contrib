@@ -76,3 +76,6 @@
 [submodule "vraptor-cep"]
 	path = vraptor-cep
 	url = http://github.com/lucasmedeirosleite/vraptor-cep
+[submodule "vraptor-magicker"]
+	path = vraptor-magicker
+	url = http://github.com/lucasmedeirosleite/vraptor-magicker
