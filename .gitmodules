@@ -79,3 +79,6 @@
 [submodule "vraptor-magicker"]
 	path = vraptor-magicker
 	url = http://github.com/lucasmedeirosleite/vraptor-magicker
+[submodule "vraptor-mybatis"]
+	path = vraptor-mybatis
+	url = git@github.com:felipebenevides/vraptor-mybatis.git
