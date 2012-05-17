@@ -73,3 +73,6 @@
 [submodule "vraptor-uploadconfig"]
 	path = vraptor-uploadconfig
 	url = http://github.com/caelum/vraptor-uploadconfig
+[submodule "vraptor-less"]
+	path = vraptor-less
+	url = https://guilhermesilveira@github.com/caelum/vraptor-less.git
