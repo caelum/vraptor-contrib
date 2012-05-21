@@ -85,3 +85,6 @@
 [submodule "vraptor-mybatis"]
 	path = vraptor-mybatis
 	url = git@github.com:felipebenevides/vraptor-mybatis.git
+[submodule "vraptor-moip"]
+	path = vraptor-moip
+	url = https://guilhermesilveira@github.com/caelum/vraptor-moip.git
