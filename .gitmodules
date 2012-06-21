@@ -58,3 +58,6 @@
 [submodule "vraptor-taglib"]
 	path = vraptor-taglib
 	url = git@github.com:dennysfredericci/vraptor-taglib.git
+[submodule "vraptor-datatables"]
+	path = vraptor-datatables
+	url = https://github.com/dennysfredericci/vraptor-datatables.git
