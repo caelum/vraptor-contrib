@@ -91,3 +91,6 @@
 [submodule "vraptor-hypermedia-enhancement"]
 	path = vraptor-hypermedia-enhancement
 	url = http://github.com/filipesperandio/vraptor-hypermedia-enhancement
+[submodule "vraptor-datatables"]
+	path = vraptor-datatables
+	url = https://github.com/dennysfredericci/vraptor-datatables.git
