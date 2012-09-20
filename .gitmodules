@@ -88,9 +88,9 @@
 [submodule "vraptor-moip"]
 	path = vraptor-moip
 	url = https://guilhermesilveira@github.com/caelum/vraptor-moip.git
-[submodule "vraptor-hypermedia-enhancement"]
-	path = vraptor-hypermedia-enhancement
-	url = http://github.com/filipesperandio/vraptor-hypermedia-enhancement
 [submodule "vraptor-datatables"]
 	path = vraptor-datatables
 	url = https://github.com/dennysfredericci/vraptor-datatables.git
+[submodule "vraptor_hypermedia_enhancement"]
+	path = vraptor_hypermedia_enhancement
+	url = https://github.com/filipesperandio/vraptor_hypermedia_enhancement
