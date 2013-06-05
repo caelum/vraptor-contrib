@@ -94,3 +94,6 @@
 [submodule "vraptor_hypermedia_enhancement"]
 	path = vraptor_hypermedia_enhancement
 	url = https://github.com/filipesperandio/vraptor_hypermedia_enhancement
+[submodule "SACI-VRaptor"]
+	path = SACI-VRaptor
+	url = https://github.com/dipold/SACI-VRaptor.git
