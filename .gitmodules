@@ -97,3 +97,6 @@
 [submodule "SACI-VRaptor"]
 	path = SACI-VRaptor
 	url = https://github.com/dipold/SACI-VRaptor.git
+[submodule "vraptor-saci"]
+	path = vraptor-saci
+	url = https://github.com/dipold/vraptor-saci.git
