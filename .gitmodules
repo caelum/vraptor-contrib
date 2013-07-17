@@ -94,3 +94,6 @@
 [submodule "vraptor_hypermedia_enhancement"]
 	path = vraptor_hypermedia_enhancement
 	url = https://github.com/filipesperandio/vraptor_hypermedia_enhancement
+[submodule "vraptor-breadcrumb"]
+   path = vraptor-breadcrumb
+   url = https://github.com/pvrsouza/vraptor-breadcrumb.git
