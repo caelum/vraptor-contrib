@@ -97,3 +97,6 @@
 [submodule "vraptor-breadcrumb"]
    path = vraptor-breadcrumb
    url = https://github.com/pvrsouza/vraptor-breadcrumb.git
+[submodule "vraptor-mustache"]
+   path = vraptor-mustache
+   url = https://github.com/cenobites/vraptor-mustache.git
