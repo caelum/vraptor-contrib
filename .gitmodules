@@ -100,3 +100,6 @@
 [submodule "vraptor-mustache"]
    path = vraptor-mustache
    url = https://github.com/cenobites/vraptor-mustache.git
+[submodule "vraptor-shiro"]
+	path = vraptor-shiro
+	url = https://github.com/dipold/vraptor-shiro
