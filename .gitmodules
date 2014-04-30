@@ -103,3 +103,6 @@
 [submodule "vraptor-shiro"]
 	path = vraptor-shiro
 	url = https://github.com/dipold/vraptor-shiro
+[submodule "vraptor-brutauth"]
+	path = vraptor-brutauth
+	url = git@github.com:leocwolter/vraptor-brutauth.git
