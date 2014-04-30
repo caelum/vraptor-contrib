@@ -106,3 +106,6 @@
 [submodule "vraptor-brutauth"]
 	path = vraptor-brutauth
 	url = git@github.com:leocwolter/vraptor-brutauth.git
+[submodule "vraptor-routes"]
+	path = vraptor-routes
+	url = https://github.com/caelum/vraptor-routes
