@@ -109,3 +109,6 @@
 [submodule "vraptor-routes"]
 	path = vraptor-routes
 	url = https://github.com/caelum/vraptor-routes
+[submodule "vraptor-simple-validator"]
+	path = vraptor-simple-validator
+	url = http://github.com/caelum/vraptor-simple-validator
