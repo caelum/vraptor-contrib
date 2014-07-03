@@ -112,3 +112,6 @@
 [submodule "vraptor-simple-validator"]
 	path = vraptor-simple-validator
 	url = http://github.com/caelum/vraptor-simple-validator
+[submodule "vraptor4js-plugin"]
+	path = vraptor4js-plugin
+	url = http://github.com/marcioferlan/vraptor4js-plugin
