@@ -115,3 +115,6 @@
 [submodule "vraptor4js-plugin"]
 	path = vraptor4js-plugin
 	url = http://github.com/marcioferlan/vraptor4js-plugin
+[submodule "vraptor-action-cache"]
+	path = vraptor-action-cache
+	url = https://github.com/asouza/vraptor-action-cache
