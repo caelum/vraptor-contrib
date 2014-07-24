@@ -124,3 +124,6 @@
 [submodule "vaas"]
 	path = vaas
 	url = https://github.com/asouza/vaas
+[submodule "vraptor-streamable-pages"]
+	path = vraptor-streamable-pages
+	url = https://github.com/asouza/vraptor-streamable-pages
