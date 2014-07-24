@@ -127,3 +127,6 @@
 [submodule "vraptor-streamable-pages"]
 	path = vraptor-streamable-pages
 	url = https://github.com/asouza/vraptor-streamable-pages
+[submodule "vraptor-paginator"]
+	path = vraptor-paginator
+	url = https://github.com/caelum/vraptor-paginator
