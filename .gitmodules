@@ -118,3 +118,6 @@
 [submodule "vraptor-action-cache"]
 	path = vraptor-action-cache
 	url = https://github.com/asouza/vraptor-action-cache
+[submodule "vraptor-form"]
+	path = vraptor-form
+	url = https://github.com/asouza/vraptor-form
