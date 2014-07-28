@@ -115,3 +115,18 @@
 [submodule "vraptor4js-plugin"]
 	path = vraptor4js-plugin
 	url = http://github.com/marcioferlan/vraptor4js-plugin
+[submodule "vraptor-action-cache"]
+	path = vraptor-action-cache
+	url = https://github.com/asouza/vraptor-action-cache
+[submodule "vraptor-form"]
+	path = vraptor-form
+	url = https://github.com/asouza/vraptor-form
+[submodule "vaas"]
+	path = vaas
+	url = https://github.com/asouza/vaas
+[submodule "vraptor-streamable-pages"]
+	path = vraptor-streamable-pages
+	url = https://github.com/asouza/vraptor-streamable-pages
+[submodule "vraptor-paginator"]
+	path = vraptor-paginator
+	url = https://github.com/caelum/vraptor-paginator
