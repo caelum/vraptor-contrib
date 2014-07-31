@@ -130,3 +130,6 @@
 [submodule "vraptor-paginator"]
 	path = vraptor-paginator
 	url = https://github.com/caelum/vraptor-paginator
+[submodule "vraptor-i18n"]
+	path = vraptor-i18n
+	url = https://github.com/caelum/vraptor-i18n
