@@ -133,3 +133,6 @@
 [submodule "vraptor-i18n"]
 	path = vraptor-i18n
 	url = https://github.com/caelum/vraptor-i18n
+[submodule "vraptor-extjsjson"]
+	path = vraptor-extjsjson
+	url = https://github.com/linyatis/vraptor-extjsjson.git
