@@ -136,3 +136,6 @@
 [submodule "vraptor-panettone"]
 	path = vraptor-panettone
 	url = https://github.com/caelum/vraptor-panettone
+[submodule "vraptor-biscotti"]
+	path = vraptor-biscotti
+	url = https://github.com/caelum/vraptor-biscotti
