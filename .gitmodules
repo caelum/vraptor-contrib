@@ -139,3 +139,21 @@
 [submodule "vraptor-external-view"]
 	path = vraptor-external-view
 	url = http://github.com/ledandre/vraptor-external-view
+[submodule "vraptor-panettone"]
+	path = vraptor-panettone
+	url = http://github.com/caelum/vraptor-panettone
+[submodule "vraptor-biscotti"]
+	path = vraptor-biscotti
+	url = http://github.com/caelum/vraptor-biscotti
+[submodule "vraptor-biscotti-compiler"]
+	path = vraptor-biscotti-compiler
+	url = http://github.com/caelum/vraptor-biscotti-compiler
+[submodule "vraptor-glue"]
+	path = vraptor-glue
+	url = http://github.com/caelum/vraptor-glue
+[submodule "vraptor-java8"]
+	path = vraptor-java8
+	url = http://github.com/caelum/vraptor-java8
+[submodule "vraptor-amazons3"]
+	path = vraptor-amazons3
+	url = http://github.com/caelum/vraptor-amazons3
