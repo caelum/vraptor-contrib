@@ -157,3 +157,6 @@
 [submodule "vraptor-amazons3"]
 	path = vraptor-amazons3
 	url = http://github.com/caelum/vraptor-amazons3
+[submodule "vraptor-hibernate-atomicity"]
+	path = vraptor-hibernate-atomicity
+	url = https://github.com/MAAARKIN/vraptor-hibernate-atomicity
