@@ -160,3 +160,6 @@
 [submodule "vraptor-hibernate-atomicity"]
 	path = vraptor-hibernate-atomicity
 	url = https://github.com/MAAARKIN/vraptor-hibernate-atomicity
+[submodule "vraptor-flash-i18n"]
+	path = vraptor-flash-i18n
+	url = https://github.com/ProjectUrutau/vraptor-flash-i18n
