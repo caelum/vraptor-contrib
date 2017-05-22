@@ -163,3 +163,6 @@
 [submodule "vraptor-flash-i18n"]
 	path = vraptor-flash-i18n
 	url = https://github.com/ProjectUrutau/vraptor-flash-i18n
+[submodule "vraptor-thymeleaf"]
+	path = vraptor-thymeleaf
+	url = https://github.com/mpbalmeida/vraptor-thymeleaf
