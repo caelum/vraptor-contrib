@@ -1,0 +1,99 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>br.com.neo</groupId>
+	<artifactId>vraptor-j2html</artifactId>
+	<version>0.0.6-SNAPSHOT</version>
+	<name>vraptor-j2html</name>
+	<packaging>jar</packaging>
+
+	<properties>
+		<!-- Encoding sources -->
+		<project.build.encoding>UTF-8</project.build.encoding>
+
+		<!-- Java -->
+		<java.version>1.8</java.version>
+
+		<!-- Maven plugins -->
+		<maven.compiler.version>3.7.0</maven.compiler.version>
+
+		<!-- Dependencies -->
+		<javaee.version>7.0</javaee.version>
+		<vraptor.version>4.2.0.Final</vraptor.version>
+		<javassist.version>3.18.1-GA</javassist.version>
+		<vraptor.java8.version>4.0.0.Final</vraptor.java8.version>
+		<slf4j.log4j12.version>1.7.25</slf4j.log4j12.version>
+		<hibernate.validator.version>5.1.1.Final</hibernate.validator.version>
+		<j2html.version>1.2.0</j2html.version>
+
+		<!-- Test dependencies -->
+		<junit.version>4.12</junit.version>
+	</properties>
+
+	<dependencies>
+		<!-- https://mvnrepository.com/artifact/javax/javaee-api -->
+		<dependency>
+			<groupId>javax</groupId>
+			<artifactId>javaee-api</artifactId>
+			<version>${javaee.version}</version>
+			<scope>provided</scope>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/br.com.caelum/vraptor -->
+		<dependency>
+			<groupId>br.com.caelum</groupId>
+			<artifactId>vraptor</artifactId>
+			<version>${vraptor.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.javassist</groupId>
+			<artifactId>javassist</artifactId>
+			<version>${javassist.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>br.com.caelum.vraptor</groupId>
+			<artifactId>vraptor-java8</artifactId>
+			<version>${vraptor.java8.version}</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-log4j12 -->
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-log4j12</artifactId>
+			<version>${slf4j.log4j12.version}</version>
+		</dependency>
+		<dependency>
+		    <groupId>org.hibernate</groupId>
+		    <artifactId>hibernate-validator-cdi</artifactId>
+		    <version>${hibernate.validator.version}</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/com.j2html/j2html -->
+		<dependency>
+			<groupId>com.j2html</groupId>
+			<artifactId>j2html</artifactId>
+			<version>${j2html.version}</version>
+		</dependency>
+		
+		<!-- https://mvnrepository.com/artifact/junit/junit -->
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>${junit.version}</version>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>${maven.compiler.version}</version>
+				<configuration>
+					<source>${java.version}</source>
+					<target>${java.version}</target>
+					<encoding>${project.build.encoding}</encoding>
+					<outputEncoding>${project.build.encoding}</outputEncoding>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+</project>
