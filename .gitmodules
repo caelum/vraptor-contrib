@@ -166,3 +166,6 @@
 [submodule "vraptor-thymeleaf"]
 	path = vraptor-thymeleaf
 	url = https://github.com/mpbalmeida/vraptor-thymeleaf
+[submodule "vraptor-j2html"]
+	path = vraptor-j2html
+	url = https://github.com/gbrandalise/vraptor-j2html
