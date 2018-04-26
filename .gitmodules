@@ -169,3 +169,6 @@
 [submodule "vraptor-j2html"]
 	path = vraptor-j2html
 	url = https://github.com/gbrandalise/vraptor-j2html
+[submodule "vraptor-jtwig"]
+	path = vraptor-jtwig
+	url = https://github.com/pbaris/vraptor-jtwig.git
