@@ -61,9 +61,6 @@
 [submodule "vraptor-plugin-hibernate4"]
 	path = vraptor-plugin-hibernate4
 	url = git@github.com:garcia-jj/vraptor-plugin-hibernate4.git
-[submodule "vraptor-plugin-cdi"]
-	path = vraptor-plugin-cdi
-	url = git@github.com:garcia-jj/vraptor-plugin-cdi.git
 [submodule "vraptor-js-controller"]
 	path = vraptor-js-controller
 	url = https://github.com/marceloemanoel/vraptor-js-controller
